@@ -33,9 +33,44 @@ public class Operadores {
     numero = numero * -1; Caso o numero que queira converter já seja negativo
   (-) Unário de valor negativo
     numero = - numero;
+04 Continuação
   (++) Unário de incremento de valor
+    numero++; é igual a expressão numero = numero + 1;
   (--) Unário de decremento de valor
+    numero--;
   (!) Unário de negação de valor
+    boolean var = true;
+    var = !var; converte a var em false
+05 Operador Ternário
+  É uma condição if resumida em uma unica linha
+    <Expressão condicional> ? <Caso seja true> : <Caso seja false>
+    a = 5;
+    b = 6;
+    String resultado = "";
+    if(a==b)
+      resultado = "verdadeiro";
+    else
+      resultado = "falso";
+  Ex acima em Operador Ternário:
+    String resultado = a==b ?"verdadeiro" : "falso";
+06 Operadores Relacionais
+  == verificar se é igual a outra
+  != verifica se é diferente da outra
+  >= verifica se é maior ou igual
+  <= verifica se é menor ou igual
+  Operador equals compra o conteúdo dos objetos
+    numeUm.equals(nomeDois);
+07 Operadores Lógicos
+  && operador lógico E
+  || operador lógico OU
+    condicao1=true;
+    condicao2=false;
+    if(condicao1 && condicao2){
+      //se as duas forem verdadeiras
+    }
+    if(condicao1 || condicao2){
+      //se uma das duas forem verdadeiras
+    }
 
 */
 }

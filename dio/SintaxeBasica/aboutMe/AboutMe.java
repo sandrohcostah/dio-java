@@ -1,4 +1,4 @@
-package dio.aboutMe;
+package dio.SintaxeBasica.aboutMe;
 import java.util.Locale;
 import java.util.Scanner;
 

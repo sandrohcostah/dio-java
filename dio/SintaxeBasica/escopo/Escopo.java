@@ -1,4 +1,4 @@
-package dio.escopo;
+package dio.SintaxeBasica.escopo;
 
 public class Escopo {
   public static void main(String[] args) {

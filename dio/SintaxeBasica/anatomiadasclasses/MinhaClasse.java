@@ -1,4 +1,4 @@
-package dio.anatomiadasclasses;
+package dio.SintaxeBasica.anatomiadasclasses;
 /*Anatomia das classes
 control + espaço + enter
 */

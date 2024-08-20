@@ -1,4 +1,4 @@
-package dio.metodos;
+package dio.SintaxeBasica.metodos;
 
 public class metodos {
   public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package dio.metodos;
+package dio.SintaxeBasica.metodos;
 /*
 Criar uma classe para representar uma smartTV
   1 Ela deve ter características:

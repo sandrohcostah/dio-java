@@ -1,4 +1,4 @@
-package dio.tiposevariaveis;
+package dio.SintaxeBasica.tiposevariaveis;
 
 public class TiposEVariaveis {
   public static void main(String[] args) {

@@ -13,6 +13,16 @@ Estruturas de exceções
   try-catch-finally
 
 Condicional Simples
-  Só há dois fluxos, true ou false
+  Só há um fluxo, true ou false
+  if(valorSolicitado < saldo) Só há fluxo se o valorSolicitado for menor que o saldo
+      saldo = saldo - valorSolicitado;
+
+Condicional Composta
+  Segue mais de um fluxo,
+  Se for true segue um fluxo, se for false segue outro
+  if(nota >= 7)
+      System.out.println("Aprovado");
+    else
+      System.out.println("Reprovado");
 */
 }

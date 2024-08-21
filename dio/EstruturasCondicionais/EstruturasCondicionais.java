@@ -50,5 +50,55 @@ Condição Ternária
     String resultado = nota >=7 ? "Aprovado" : nota >=5 && nota <7 ? "Recuperação" : "Reprovado";
     System.out.println(resutado);
 
+Switch case
+  Compara o valor de uma variável e para quando encontrar
+  String sigla = "M";
+    /* 
+    if(sigla == "P")
+      System.out.println("Pequeno");
+    else if(sigla == "M")
+      System.out.println("Médio");
+    else if(sigla == "G")
+      System.out.println("Grande");
+    else
+      System.out.println("Indefinido");
+
+    //Exemplo do if acima em Switch-Case
+    switch (sigla){
+      case "P":{
+        System.out.println("Pequeno");
+        break;
+      }
+      case "M":{
+        System.out.println("Médio");
+        break;
+      }
+      case "G":{
+        System.out.println("Grande");
+        break;
+      }
+      default:
+        System.out.println("Indefinido");
+    }
+        Sempre analisar se necessita de um switch-case,
+        ou um if seria melhor... há casos e casos..
+            String plano = "M";
+    
+            Exemplo sem o break
+     * Ele começa na primeira verdadeira
+     * e continua a executar o restante, em cascata
+     * Nesse caso, ele vai executar o texto do case M e B
+    
+    switch(plano){
+      case "T": {
+        System.out.println("5Gb Youtube");
+      }
+      case "M": {
+        System.out.println("Whats e instagram grátis");
+      }
+      case "B": {
+        System.out.println("100 minutos de ligação");
+      }
+
 */
 }

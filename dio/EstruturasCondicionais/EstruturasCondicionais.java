@@ -24,5 +24,18 @@ Condicional Composta
       System.out.println("Aprovado");
     else
       System.out.println("Reprovado");
+
+Condicional Encadeada
+  Não se limita a apenas uma condição
+  int nota = 6;
+
+    if(nota >= 7)
+    System.out.println("Aprovado");
+
+      else if(nota >5 && nota <7)
+        System.out.println("Recuperação");
+
+    else
+      System.out.println("Reprovado");
 */
 }

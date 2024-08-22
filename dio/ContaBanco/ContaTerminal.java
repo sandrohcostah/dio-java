@@ -12,11 +12,12 @@ public class ContaTerminal {
     int senhaDig = 0;
     int numContaDig = 0;
     
+    @SuppressWarnings("resource")
     Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
     
     while(senha != senhaDig && numConta != numContaDig){
-      System.out.println("Digite o número da agência: ");
-        String agenciaDig = scanner.next();
+      //System.out.println("Digite o número da agência: ");
+        //String agenciaDig = scanner.next();
 
       System.out.println("Digite o número da sua conta: ");
         numContaDig = scanner.nextInt();

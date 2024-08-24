@@ -35,9 +35,9 @@ public class ExplorandoServicosTel {
     String nomeCliente = partes[0];
     boolean contratado = false;
     
+    if(nomeCliente != null){
     for(int contarDados=1; contarDados < partes.length; contarDados++){
-      String buscaServico = partes[contarDados];
-      if(buscaServico.equals(servico)){
+      if(partes[contarDados].equals(servico)){
         contratado = true;
       }
     }
@@ -46,7 +46,7 @@ public class ExplorandoServicosTel {
     }else{
       System.out.println("Não");
     }
-    
+  }
     scanner.close();
   }
 }

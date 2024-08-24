@@ -1,4 +1,4 @@
-package dio.EstruturasExcepcionais;
+package dio.EstruturasExcepcionais.ExemploExcecaoCep;
 
 public class CepInvalidoException extends Exception {
   

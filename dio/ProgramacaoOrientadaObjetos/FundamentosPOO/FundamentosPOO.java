@@ -60,6 +60,17 @@ Classes
     Contém recursos comuns à toda nossa aplicação
 
 Pacotes
-  
+  Formas de organizar o projeto
+  Pacotes são subdiretórios na pasta src do projeto
+  Nomenclaturas de pacotes
+    Comercial: com.nomeempresa
+    Governamental: gov.nomeempresa
+    Código aberto: org.nomeempresa
+    Dentro dessas pastas, criar pastas de acordo com a finalidade de cada classe
+    Ex: Considere a classe Usuario que está endereçada no pacote com.controle.acesso.model, o nome qualificado desta classe é com.controle.acesso.model.Usuario
+    É importante colocar nomes qualificados e em pacotes, pois pode acontecer de termos classes iguais no projeto, mas em pacotes diferentes
+  Package = Será o pacote onde a classe atual, que se está trabalhando está localizada
+  Se precisar de outra classe, ai terá que usar o comando import
+
 */
 }

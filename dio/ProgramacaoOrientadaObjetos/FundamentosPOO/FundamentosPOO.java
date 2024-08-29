@@ -72,5 +72,18 @@ Pacotes
   Package = Será o pacote onde a classe atual, que se está trabalhando está localizada
   Se precisar de outra classe, ai terá que usar o comando import
 
+Visibilidade dos recursos
+  Modificares de acesso
+    Public
+      Qualquer outra classe em qualquer outro pacote pode visualizar tais recursos
+      public void
+    Default
+      void()
+      Faz com que só os que estão no mesmo pacote enxergue
+    Private
+      private void()
+      Faz com que não apareça as ações que a classe pode fazer
+      É vista apenas pela própria classe apenas
+      
 */
 }

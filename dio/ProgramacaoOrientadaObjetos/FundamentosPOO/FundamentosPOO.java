@@ -84,6 +84,14 @@ Visibilidade dos recursos
       private void()
       Faz com que não apareça as ações que a classe pode fazer
       É vista apenas pela própria classe apenas
-      
+
+Getters e Setters
+  São usados para buscar valores de atributos ou definir novos valores
+  Getter
+    Retorna  o valor do atributo especificado
+  Setter
+    Define novo valor para o atributo especificado
+  
+
 */
 }

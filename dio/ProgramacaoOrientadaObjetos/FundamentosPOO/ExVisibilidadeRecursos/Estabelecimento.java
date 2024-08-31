@@ -1,6 +1,6 @@
-package dio.ProgramacaoOrientadaObjetos.FundamentosPOO.lanchonete;
+package dio.ProgramacaoOrientadaObjetos.FundamentosPOO.ExVisibilidadeRecursos;
 
-import dio.ProgramacaoOrientadaObjetos.FundamentosPOO.lanchonete.atendimento.cozinha.Cozinheiro;
+import dio.ProgramacaoOrientadaObjetos.FundamentosPOO.ExVisibilidadeRecursos.atendimento.cozinha.Cozinheiro;
 
 public class Estabelecimento {
     public static void main(String[] args) {

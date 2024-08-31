@@ -1,4 +1,4 @@
-package dio.ProgramacaoOrientadaObjetos.FundamentosPOO.lanchonete.area.cliente;
+package dio.ProgramacaoOrientadaObjetos.FundamentosPOO.ExVisibilidadeRecursos.area.cliente;
 
 public class Cliente {
 

@@ -1,6 +1,6 @@
-package dio.ProgramacaoOrientadaObjetos.FundamentosPOO.lanchonete.atendimento.cozinha;
+package dio.ProgramacaoOrientadaObjetos.FundamentosPOO.ExVisibilidadeRecursos.atendimento.cozinha;
 
-import dio.ProgramacaoOrientadaObjetos.FundamentosPOO.lanchonete.atendimento.Atendente;
+import dio.ProgramacaoOrientadaObjetos.FundamentosPOO.ExVisibilidadeRecursos.atendimento.Atendente;
 
 public class Cozinheiro {
   

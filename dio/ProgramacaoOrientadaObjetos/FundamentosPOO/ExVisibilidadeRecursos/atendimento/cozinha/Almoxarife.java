@@ -1,4 +1,4 @@
-package dio.ProgramacaoOrientadaObjetos.FundamentosPOO.lanchonete.atendimento.cozinha;
+package dio.ProgramacaoOrientadaObjetos.FundamentosPOO.ExVisibilidadeRecursos.atendimento.cozinha;
 
 public class Almoxarife {
   

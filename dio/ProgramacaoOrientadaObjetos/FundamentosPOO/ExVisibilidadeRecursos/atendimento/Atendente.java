@@ -1,4 +1,4 @@
-package dio.ProgramacaoOrientadaObjetos.FundamentosPOO.lanchonete.atendimento;
+package dio.ProgramacaoOrientadaObjetos.FundamentosPOO.ExVisibilidadeRecursos.atendimento;
 
 public class Atendente {
 

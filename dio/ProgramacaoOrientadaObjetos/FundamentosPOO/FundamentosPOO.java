@@ -91,7 +91,22 @@ Getters e Setters
     Retorna  o valor do atributo especificado
   Setter
     Define novo valor para o atributo especificado
+
+Construtores
+  Construção, inicialização e instanciação de objetos, é básicamente a mesma coisa
+  Padrão de criação de objetos:
+    Classe novoObjeto = new Classe();
+  Método construtor
+    Eu obrigo a pessoa a criar o novo objeto já com os dados que eu definir
+    No caso, quando eu não coloco os Setters de algum atributo, a pessoa é obrigada
+    a definir os atributos no momento da criação do objeto
+    ex: Ver Classe Pessoa e SistemaCadastro
+  Não abusar dos parametros
+    Pode criar vários construtores, mas não é recomendado criar vários
+
+Enums
   
+
 
 */
 }

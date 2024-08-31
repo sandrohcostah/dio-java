@@ -1,4 +1,4 @@
-package dio.ProgramacaoOrientadaObjetos.FundamentosPOO.Escola;
+package dio.ProgramacaoOrientadaObjetos.FundamentosPOO.ExGetterSetter;
 
 public class Aluno {
   private String nome;

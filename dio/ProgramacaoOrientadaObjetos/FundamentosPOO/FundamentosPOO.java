@@ -73,7 +73,7 @@ Pacotes
   Se precisar de outra classe, ai terá que usar o comando import
 
 Visibilidade dos recursos
-  Modificares de acesso
+  Modificadores de acesso
     Public
       Qualquer outra classe em qualquer outro pacote pode visualizar tais recursos
       public void
@@ -111,6 +111,46 @@ Enums
   É um tipo especial de classe onde os objetos são previamente criados,
     imutáveis e disponíveis por toda aplicação
   São criados para valores que não sofrem alterações frequentes
+
+UML
+  Linguagem de Modelagem Unificada
+  É uma representação do projeto em forma gráfica (Parecido com DER no SQL)
+  Diagramas, Elementos, Relacionamentos
+  Dividida em duas categorias de diagramas (Estrutural e Comportamental)
+    Estrutural
+      Diagrama de Classe:
+        É usado paara fazer representação de estruturas de classes de negócio,
+          interfaces e outros componentes do sistema.
+        É considerado o mais importante para a UML,
+          pois auxilia a maioria dos demais diagramas.
+        Ilustra graficamente como classes serão estruturadas e interligadas
+          entre si diante da proposta do nosso software.
+        Em diagrama a estrutura das classes é constituída por:
+          Identificação: Nome e/ou finalidade da classe
+          Atributos: Propriedades e/ou características
+          Operações: Ações e/ou métodos
+      Diagrama de objetos:
+        Representa os objetos existentes em um determinado instante ou fato da aplicação
+      Relacionamentos:
+        Relação de uma classe com a outra
+        Agregação:
+          A classe pricipal contém uma relação com a outra classe,
+            mas pode existir sem que a classe agregadora.
+            Ex: Classe Candidato,
+            podemos ter candidatos cadastratos que ainda não possuam profissão definida.
+        Composição:
+          Tem uma dependência existencial entre a classe principal e a classe associada.
+          Ex: Admissão só pode existir se tiver a composição de sum candidato selecionado.
+        Multiplicidade:
+          1. Representa uma associação contendo um elemento.
+          *. Representa uma associação contendo uma lista de elementos.
+          0..1 Representa uma associação contendo zero ou um elemento.
+          0..* Representa uma associação contendo zero ou uma lista de elementos.
+      Visibilidade:
+        Niveis de visibilidade de os atributos ou métodos de uma classe tem.
+        + Visibilidade pública
+        # Visibilidade protegida (muito usada com herança)
+        - Visibilidade privada
 
 */
 }

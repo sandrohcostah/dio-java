@@ -87,10 +87,13 @@ Visibilidade dos recursos
 
 Getters e Setters
   São usados para buscar valores de atributos ou definir novos valores
+  Elas protegem os valores da classe que estarão como private,
+    sendo vistos apenas por ela mesma
   Getter
     Retorna  o valor do atributo especificado
   Setter
-    Define novo valor para o atributo especificado
+    Define novo valor ou modifica o valor do atributo especificado
+  EX: Ver ExGettersSetters no pacote
 
 Construtores
   Construção, inicialização e instanciação de objetos, é básicamente a mesma coisa
@@ -98,15 +101,16 @@ Construtores
     Classe novoObjeto = new Classe();
   Método construtor
     Eu obrigo a pessoa a criar o novo objeto já com os dados que eu definir
-    No caso, quando eu não coloco os Setters de algum atributo, a pessoa é obrigada
-    a definir os atributos no momento da criação do objeto
-    ex: Ver Classe Pessoa e SistemaCadastro
+    No caso, quando eu não coloco os Setters de algum atributo,
+      a pessoa é obrigada a definir os atributos no momento da criação do objeto
+      EX: Ver Classe Pessoa e SistemaCadastro
   Não abusar dos parametros
     Pode criar vários construtores, mas não é recomendado criar vários
 
 Enums
+  É um tipo especial de classe onde os objetos são previamente criados,
+    imutáveis e disponíveis por toda aplicação
   
-
 
 */
 }

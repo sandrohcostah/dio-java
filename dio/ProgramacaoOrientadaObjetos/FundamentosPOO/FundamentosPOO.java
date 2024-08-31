@@ -110,7 +110,7 @@ Construtores
 Enums
   É um tipo especial de classe onde os objetos são previamente criados,
     imutáveis e disponíveis por toda aplicação
-  
+  São criados para valores que não sofrem alterações frequentes
 
 */
 }

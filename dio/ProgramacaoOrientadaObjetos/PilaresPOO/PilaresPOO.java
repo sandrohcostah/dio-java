@@ -22,6 +22,11 @@ Pilares do POO
       É a indisponibilidade para determinar a lógica de um ou vários comportamentos em um objeto
     Polimorfismo
       São as inumeras maneiras de se realizar uma mesma ação.
+    Interface
+      Nível mais avançado de abstração (é um conceito de abstração)
+      Java não permite herança múltipla, aí entra a interface.
+      Quando preciso de uma classe tenha mais de um papel, uso implements
+      Iphone é um equipamento que implementa 3 interfaces (ipod, celular e internet)
 
 */
 }

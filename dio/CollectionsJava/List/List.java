@@ -13,7 +13,7 @@ List Interface
     reversão (reverse) e 
     busca binária(binarySearch)
 
-Iniciando o projeto e enviando para o git
+Operações básicas List
   
 
 */

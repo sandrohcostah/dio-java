@@ -1,3 +1,4 @@
+package OperacoesBasicas;
 import java.util.Objects;
 
 public class Convidado {

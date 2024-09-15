@@ -12,6 +12,7 @@ Oprações básicas do Map:
   containsValue(verifica se contém um valor)
   size(obter tamanho)
   isEmpty(verifica se está vazio)
+  Método put serve tanto para inserir, quanto para atualizar/sobrescrever
   
 
 */

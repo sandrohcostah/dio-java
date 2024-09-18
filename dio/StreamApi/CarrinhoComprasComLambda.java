@@ -19,7 +19,7 @@ public class CarrinhoComprasComLambda {
       throw new RuntimeException("A lista está vazia!");
     }
     return itemList.stream()
-        .mapToDouble(item -> item.getPreco() * item.getQuant())
+        .mapToDouble(item -> item.getPreco() * item.getQuantidade())
         .sum();
   }
 }

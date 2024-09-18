@@ -18,7 +18,7 @@ public class CarrinhoComprasSemLambda {
     double valorTotal = 0d;
     if (!itemList.isEmpty()) {
       for (Item item : itemList) {
-        double valorItem = item.getPreco() * item.getQuant();
+        double valorItem = item.getPreco() * item.getQuantidade();
         valorTotal += valorItem;
       }
       return valorTotal;

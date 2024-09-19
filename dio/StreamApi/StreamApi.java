@@ -38,6 +38,12 @@ Predicate<T>
   e retorna um valor booleano (verdadeiro ou falso). 
   É comumente usada para filtrar os elementos do Stream com base em alguma condição.
 
+BinaryOperator<T>
+  Representa uma operação que combina dois argumentos do tipo T 
+  e retorna um resultado do mesmo tipo T. 
+  É usada para realizar operações de redução em pares de elementos,
+  como somar números ou combinar objetos.
+
 
 */
 }

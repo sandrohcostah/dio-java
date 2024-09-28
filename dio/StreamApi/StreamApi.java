@@ -44,6 +44,8 @@ BinaryOperator<T>
   É usada para realizar operações de redução em pares de elementos,
   como somar números ou combinar objetos.
 
-
+Conhecendo a class Optional<T>
+  Permite encapsular um valor que pode ser nulo dentro de um objeto Optional
+  
 */
 }

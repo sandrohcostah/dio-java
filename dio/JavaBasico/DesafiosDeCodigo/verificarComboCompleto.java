@@ -31,7 +31,7 @@ banda larga,tv,movel | Combo Completo
  */
 public class verificarComboCompleto {
   // Função para verificar se o cliente contratou um combo completo
-  public static String verificarComboCompleto(String[] servicosContratados) {
+  public static String verificarCombo(String[] servicosContratados) {
     // Variáveis booleanas para verificar a contratação de cada serviço
     boolean movelContratado = false;
     boolean bandaLargaContratada = false;
@@ -66,7 +66,7 @@ public static void main(String[] args) {
     String[] servicosContratados = input.split(",");
 
     // Verificando se o cliente contratou um combo completo
-    String resultado = verificarComboCompleto(servicosContratados);
+    String resultado = verificarCombo(servicosContratados);
 
     // Exibindo o resultado
     System.out.println(resultado);

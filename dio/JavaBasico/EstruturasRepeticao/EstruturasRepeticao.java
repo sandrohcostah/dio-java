@@ -1,6 +1,6 @@
 package dio.JavaBasico.EstruturasRepeticao;
 
-import java.util.concurrent.ThreadLocalRandom;
+//import java.util.concurrent.ThreadLocalRandom;
 
 public class EstruturasRepeticao {
   public static void main(String[] args) {

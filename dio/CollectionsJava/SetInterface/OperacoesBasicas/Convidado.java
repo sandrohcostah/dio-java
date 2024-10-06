@@ -1,4 +1,4 @@
-package OperacoesBasicas;
+package dio.CollectionsJava.SetInterface.OperacoesBasicas;
 import java.util.Objects;
 
 public class Convidado {

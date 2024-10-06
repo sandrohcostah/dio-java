@@ -1,3 +1,5 @@
+package dio.CollectionsJava.SetInterface;
+
 public class SetInterface {
 /*
 Set Interface

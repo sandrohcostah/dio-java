@@ -1,4 +1,4 @@
-package PesquisaSet;
+package dio.CollectionsJava.SetInterface.PesquisaSet;
 import java.util.HashSet;
 import java.util.Set;
 

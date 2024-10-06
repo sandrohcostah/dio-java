@@ -1,4 +1,4 @@
-package PesquisaSet;
+package dio.CollectionsJava.SetInterface.PesquisaSet;
 import java.util.Objects;
 
 public class Contato {

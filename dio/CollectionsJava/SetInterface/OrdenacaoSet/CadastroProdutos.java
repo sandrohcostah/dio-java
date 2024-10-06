@@ -1,4 +1,4 @@
-package OrdenacaoSet;
+package dio.CollectionsJava.SetInterface.OrdenacaoSet;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;

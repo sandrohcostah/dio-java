@@ -1,9 +1,14 @@
 spring:
   datasource:
-    url: jdbc:${{Postgres.DATABASE_URL}}
-    username: ${PGUSER}
-    password: ${PGPASSWORD}
+    url: postgresql://postgres:jyeneTrNNsGaISzoHZnuCcJENgQWLmHS@postgres.railway.internal:5432/railway
+    #username: ${PGUSER}
+    #password: ${PGPASSWORD}
   jpa:
     open-in-view: false
     hibernate:
+      dialect: org.hibernate.dialect.PostgreSQLDialect
       ddl-auto: create
+  logging:
+    level:
+      org.springframework: DEBUG
+      org.hibernate: DEBUG

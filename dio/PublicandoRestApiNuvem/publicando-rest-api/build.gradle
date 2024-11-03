@@ -23,9 +23,15 @@ dependencies {
 	//OpenAPI (Swagger) implementado manual
 	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0'
 	runtimeOnly 'com.h2database:h2'
-	runtimeOnly 'org.postgresql:postgresql'
+	runtimeOnly 'org.postgresql:postgresql:42.7.3'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+tasks.jar {
+	manifest {
+		attributes["Main-class"] = "com.spring.gradle.publicando_rest_api.PublicandoRestApiApplication"
+	}
 }
 
 tasks.named('test') {

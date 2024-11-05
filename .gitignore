@@ -3,6 +3,9 @@
 Teste.java
 # Log file
 *.log
+*.gitignore
+*.iml
+*.idea
 
 # BlueJ files
 *.ctxt
